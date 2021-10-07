@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/534893fe33.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilosGenerales.css">
+    <link rel="stylesheet" href="estilosIndex.css">
+    <link rel="icon" href="https://w7.pngwing.com/pngs/573/202/png-transparent-earth-globe-universal-job-ag-universal-job-ag-planet-earth-globe-logo-world.png">
+
+<body>
+    <header>
+        <div class="icon">
+            <i class="fas fa-globe-africa"></i>
+        </div>
+        <title>Instituto de idiomas</title>
+        <h1>TUIDIOMA</h1>
+        <h2>INSTITUTO DE IDIOMAS</h2>
+        <nav class="menu">
+
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="inscripcion.html">Inscripción</a>
+                </li>
+                <li>
+                    <a href="establecimiento.html">Establecimiento</a>
+                </li>
+                <li>
+                    <a href="calendario.html">Calendario</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <section class="info">
+            <article>
+                <h4 class="TuIdioma">Bienvenido a TuIdioma</h4>
+                
+
+                <p>TuIdioma es un Instituto mundial dedicado a la enseñanza de idiomas, donde se ofrece variadas
+                    modalidades de cursada para
+                    beneficiar la comodidad del alumno, ya sea online o presencial. En cuanto a los idiomas y
+                    modalidades, sientate libre de leer.</p>
+
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Inglés</li>
+                    <li>Japonés</li>
+                    <li>Alemán</li>
+                    <li>Chino</li>
+                    <li>Francés</li>
+                    <li>Portugués</li>
+                </ul>
+                <hr>
+            </article>
+        </section>
+        <section>
+            <article class="pasos">
+                <h3>¡Seguí estos pasos para tu inscripción!</h3>
+                <ol>
+                    <li>Seleccioná el establecimiento y tu dirección.</li>
+                    <li>Seleccioná tu curso. </li>
+                    <li>¡Inscribite!</li>
+                </ol>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <form action="#" method="GET"></form>
+                <div class="contenedor-con">
+                    <label for="provincia"></label>
+                    <select name="provincia" id="provincia">
+                        <option value="">Selecciona la provincia del Instituto</option>
+                        <option value="1">San Martin (Sede Buenos Aires, Argentina)</option>
+                        <option value="2">Mao zedong (Sede Henan, China)</option>
+                        <option value="3">Gran Londres (Sede Longres, Inglaterra)</option>
+                        <option value="4">D.C. (Sede Washington D.C, Estados Unidos)</option>
+                    </select>
+                    <br> <br>
+                    <label for="direccion"></label>
+                    <input type="text" name="direccion" id="direccion" placeholder="Ingresá tu direccion" required>
+                    <br> <br>
+                    <label for="provincia"></label>
+                    <input type="text" name="provincia" id="provincia" placeholder="Ingresá tu provincia" required>
+                    <br> <br>
+                    <label for="mail"></label>
+                    <input type="mail" name="mail" id="mail" placeholder="Ingresá tu dirección de E-mail" required>
+                    <br> <br>
+                    <label for="Idiomas"></label>
+                    <select id="idiomas" name="idiomas" required>
+                        <option value="">Seleccioná tu idioma</option>
+                        <option value="1">Inglés</option>
+                        <option value="2">Portugués</option>
+                        <option value="3">Francés</option>
+                        <option value="4">Chino</option>
+                        <option value="5">Japonés</option>
+                        <option value="6">Alemán</option>
+                    </select>
+                    <br> <br>
+                    <label for="comboHorarioModalidad"></label>
+                    <select name="comboHorarioModalidad" id="comboHorarioModalidad" required>
+                        <option value="">Seleccionna tu combo</option>
+                        <option value="1">Lunes 8am a 10am / presencial</option>
+                        <option value="2">Lunes 6pm a 8pm / virtual</option>
+                        <option value="3">Viernes 8am a 10am / virtual</option>
+                        <option value="4">Viernes 6pm a 8pm / presencial</option>
+                    </select>
+                    <br> <br>
+                    <input id="TyC" type="checkbox" name="TyC" value="TyC" readonly><label for="TyC"> Estoy de acuerdo con <a href="#">Términos y condiciones</a></label>
+
+                    <br> <br>
+                    <a href="inscripcion.html"><input type="submit" value="Inscribirse" class="boton"></a>
+                    <hr>
+                </div>
+            </article>
+        </section>
+        <section>
+            <aritcle class="establecimientos">
+                <h3>Establecimientos</h3>
+                <ol>
+                    <div class="cime">
+                       <a href="SanMartin.html"> <img src="BsAs.jpg" class="imagenE"></a>
+                        <li>San Martin</li>
+                    </div>
+                    <div class="cime">
+                        <a href="MaoZedong.html"><img src="maoZedong.jpg"  class="imagenE"></a>
+                            
+                        <li>Mao zedong </li>
+                    </div>
+                    <div class="cime">
+                       <a href="GranLondres.html"> <img src="granLondres.jpg" class="imagenE"> </a>
+                        <li>Gran Londres</li>
+                    </div>
+                    <div class="cime">
+                        <a href="D.C.html"><img src="dc.jpg" class="imagenE"></a>
+                        <li>D.C</li>
+                    </div>
+                </ol>
+            </aritcle>
+        </section>
+
+    </main>
+    <footer>
+        <article class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="inscripcion.html">Inscripcion</a></li>
+                <li> <a href="establecimiento.html">Establecimiento</a> </li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </article>
+        <article>
+            <ul class="integrantes">
+                
+                <li>Quiroga Pablo -DNI:44115362</li>
+            </ul>
+        </article>
+        <article>
+            <div class="redes">
+                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com/?lang=es" target="blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </article>
+    </footer>
+    
+
+</body>
+
+</html>
